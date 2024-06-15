@@ -1,0 +1,31 @@
+/* components/SearchResultItem/SearchResultItem.css */
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-result-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-result-image {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.search-result-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.search-result-item:hover {
+    background: #f0f0f0;
+}

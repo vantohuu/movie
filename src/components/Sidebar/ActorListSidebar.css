@@ -1,0 +1,36 @@
+.actor-list-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto; /* Cho phép cuộn nếu danh sách diễn viên quá dài */
+  }
+  
+  .actor-list-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .actor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .actor-list-item {
+    margin-bottom: 5px;
+  }
+  
+  .actor-list-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .actor-list-link:hover {
+    color: #ccc;
+  }
+  

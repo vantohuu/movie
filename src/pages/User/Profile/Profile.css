@@ -1,0 +1,90 @@
+/* .mainBodyUser{
+
+    background-color: black;
+    color: white;
+} */
+
+
+
+.mainBodyUser {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .avatar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .info-section {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form span {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  .edit-form input {
+    width: calc(100% - 90px);
+    padding: 5px;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #d36b6b;
+  }
+  

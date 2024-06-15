@@ -1,0 +1,74 @@
+.footer {
+  background-color: #252424;
+  color: #fff;
+  /* position: fixed; */
+  font-weight: bold;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 22px;
+}
+
+.footer-section {
+  flex: 1 1 20%; /* Mỗi cột chiếm 20% chiều rộng */
+  /* margin-bottom: 20px; */
+}
+
+.footer-section h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ccc;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #b30900;
+}
+
+.back-to-top:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .footer-section {
+    flex: 1 1 100%; /* Khi màn hình nhỏ hơn 768px, mỗi cột chiếm 100% chiều rộng */
+  }
+}

@@ -1,0 +1,36 @@
+.random-movie-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto; /* Cho phép cuộn nếu danh sách phim quá dài */
+  }
+  
+  .random-movie-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .random-movie-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .random-movie-item {
+    margin-bottom: 5px;
+  }
+  
+  .random-movie-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .random-movie-link:hover {
+    color: #ccc;
+  }
+  

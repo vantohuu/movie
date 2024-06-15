@@ -1,0 +1,91 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url("https://raw.githubusercontent.com/YunusDogru/Sign-in-Sign-up-React.js/main/img.jpg"); */
+    background-image: url('/public/images/slider-bg.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-wrapper .login-content {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+.if{
+    color: #EEEEEE;
+}
+.login-wrapper h3 {
+    color: #EEEEEE;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-wrapper .error {
+    color: red;
+}
+
+.login-wrapper .row {
+    margin-bottom: 20px;
+}
+
+.login-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    color: #EEEEEE;
+}
+
+.login-wrapper .login-content [type="text"],input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: #EEEEEE;
+}
+
+.login-wrapper button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fb176d;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+.login-wrapper button[type="submit"]:hover {
+    background-color: #fb0964;
+}
+
+.login-wrapper .switch-to-register,
+.login-wrapper .switch-to-login {
+    background-color: transparent;
+    border: none;
+    color: #fb176d;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.switch-to-register:hover,
+.switch-to-login:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    padding-bottom: 10px;
+
+}
+.forgot-password a {
+    color: #d5bc0b;
+    text-decoration: none;
+    font-style: italic;
+}
